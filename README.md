@@ -1,3 +1,8 @@
+# `AppManager` Example
+
+This is an example project using React hooks, with global state management handled through context. The example app
+has one sample component with a simple boolean state value, represented by a button. Its state comes from `AppManager`.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

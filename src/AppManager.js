@@ -17,7 +17,7 @@ function reducer(state, action) {
 }
 
 function AppManager({ children }) {
-  const initialState = { isSwitchOn: false };
+  const initialState = { isSwitched: false };
 
   const [state, dispatch] = useReducer(reducer, initialState);
 
